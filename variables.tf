@@ -17,4 +17,5 @@ variable "storage_account_name" {
 variable "Environment" {
   type        = string
   description = "The environment either Production or Development"
+  default = "Development"
 }
