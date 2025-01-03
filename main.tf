@@ -15,6 +15,7 @@ locals {
 
         "Environment" = var.Environment
     }
+    instance = "001"
   
 }   
 
@@ -28,3 +29,4 @@ resource "azurerm_storage_account" "securestorage" {
 
   tags = local.tags
 }
+
